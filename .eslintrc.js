@@ -15,5 +15,10 @@ module.exports = {
         "react"
     ],
     "rules": {
+        'react/jsx-no-duplicate-props': "off",
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/display-name": "off",
+
     }
 };
